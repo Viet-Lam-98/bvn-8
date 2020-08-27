@@ -1,0 +1,234 @@
+
+a {text-decoration: none;}
+ul {
+    list-style: none;
+    padding: 0;
+}
+header{
+background-color:#4F4F4F;
+  /*  width: 80%; */
+   margin: auto;
+}
+.header {
+    margin-left: 20%;
+    display: flex;
+}
+
+.header a {
+    
+    font-size: 30px;
+    color: white;
+  
+}
+.header span { color: yellow;
+font-size: 20px;}
+.header button {
+    margin: 20px;
+    font-size: 30px;
+    color: white ;
+  
+    
+}
+.header input { 
+    font-size: 30px;
+    border-style: none;}
+/*  .menu-list {
+     margin-left: 20%;}   */ 
+#menu { 
+   
+   /*  width: 100%; */
+    height:50px;
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+  
+   
+  
+}
+#menu a { display: inline-block;
+    margin: auto;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-top:15px;}
+#menu :hover a { 
+    color: yellow;
+    border-style: solid;
+    border-color: rgb(58, 46, 46);
+background-color: rgb(58, 46, 46);
+}
+.menu-an { color: white ;
+     display: none;
+    background-color:rgb(58, 46, 46) ;
+   padding: 10px ;
+   width: 800px;
+     }
+.menu:hover > .menu-an {
+    display: flex;
+    /* float: left;  */
+    justify-content: space-evenly;
+    position: absolute;}
+main {
+    background-color: #696969;
+}
+.title { font-size : 20px;
+    font-weight: bold ;
+    color: yellow;
+    /* float: left; */}
+.title > a { float: right;
+    font-size: 15px;
+margin-top:10px;}
+.film {
+    display: flex;
+    padding: 0;
+    margin:0;
+    justify-content: space-between;
+    
+
+   
+}
+.film a {
+    color: white;
+}
+.film span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.film-list {
+    position: relative;
+    
+}
+.Name-film {
+    background-color: gray;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 20px;
+    margin: 15px;
+    opacity: 0,1;
+   
+  
+}
+.list-slide img {
+    
+    max-width: 90%;
+    margin: 5px;
+    padding:10px;
+}
+.slide-decu{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(58, 46, 46) ;
+    position: relative;
+}
+.list-slide {
+   height:350px;
+    margin: auto;
+    overflow: hidden;
+    margin-right: 0;
+   
+}
+
+.nut-slide span {
+    font-size: 60px;
+
+}
+a#prev {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 100;
+    color: white;
+ }
+a#next {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 100;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.Chieu-rap {
+    width: 70%;
+}
+.movie {
+    display: flex;
+}
+.movie-list {
+    background-color: rgb(83, 80, 80);
+    margin: 5px;
+    /* overflow: hidden; */
+    /* width: 200px; */
+    position: relative;
+  
+   
+
+border-style: solid;
+border-color:rgb(83, 80, 80) ;}
+.movie-list .background { 
+    display: none; 
+    position: absolute ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:black;
+    /* làm mờ */
+    opacity: 0.3;       }
+.caption-movie  {
+    position: absolute;
+    top: 0;
+     color: white;
+    background-color: rgb(83, 80, 80);
+    border-style: solid;
+    border-color: rgb(83, 80, 80);
+    border-radius: 15%;
+}
+.movie-list:hover  .background {
+    display: block;
+}
+.conten-movie
+{ color: white;}
+.container {
+    display: flex;
+}
+.trailer {
+    width: 30%;
+    margin-top: 50px;
+    
+}
+.trailer a {
+    display: flex;
+}
+.trailer-movie {
+    color: white;
+}
+.trailer-movie span {
+    font-weight: bold;
+    color:rgb(102, 102, 230) ;
+}
+.scroll {overflow-y: scroll ;
+    height: 670px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.ket    { display: flex;
+    justify-content: space-evenly;
+    text-align:   right;}
+footer { background-color: gray; } 
+.movie-list img {
+    max-width: 100%;
+}
